@@ -7,7 +7,7 @@ export default function Features() {
 
   return (
     <section className="py-16 px-8 bg-black">
-      <h3 className="text-2xl font-bold mb-8 text-center text-gray-300">Features</h3>
+      <h3 className="text-2xl font-bold mb-8 text-center text-gray-100">Features</h3>
       <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
         {items.map((item, idx) => (
           <div key={idx} className="p-4 border rounded shadow hover:shadow-lg transition">

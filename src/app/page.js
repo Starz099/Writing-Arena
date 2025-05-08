@@ -5,11 +5,13 @@ import Footer from "@/components/landing_page/Footer";
 
 export default function Home() {
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <Navbar />
-      <HeroSection />
-      <Features />
+      <div className="flex-grow overflow-auto">
+        <HeroSection />
+        <Features />
+      </div>
       <Footer />
-    </>
+    </div>
   );
 }
