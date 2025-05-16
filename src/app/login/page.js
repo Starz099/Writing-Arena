@@ -27,11 +27,15 @@ export default function Home() {
         <CardContent className="text-white">
           <Input className="my-4 h-10" placeholder="Email" />
           <Input className="mt-4 h-10" placeholder="Password" />
-          <Button variant="ghost" className="mt-4 w-full bg-neutral-900 hover:cursor-pointer">Login</Button>
+          <div className="mt-1   w-full flex">
+            <a href="#" className="text-white hover:underline ml-auto mr-1">Forgot Password</a>
+          </div>
+          <Button variant="ghost" className="mt-4 w-full bg-neutral-900 hover:cursor-pointer h-10">Login</Button>
+
         </CardContent>
-        <DividerWithText text="OR" />
+        <DividerWithText className="mt-0" text="OR" />
         <CardFooter className="text-white">
-          <Button variant="ghost" className="w-full bg-neutral-900 hover:cursor-pointer">
+          <Button variant="ghost" className="w-full bg-neutral-900 hover:cursor-pointer h-10">
             Continue with Google
           </Button>
         </CardFooter>
