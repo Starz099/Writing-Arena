@@ -7,7 +7,7 @@ export default function HeroSection() {
       <p className="text-lg text-gray-500 mb-6 max-w-xl mx-auto">
         Join daily writing challenges with AI feedback, resources, and a community that grows together.
       </p>
-      <a href="#" className="px-6 py-3 bg-gray-900 rounded-full text-white hover:bg-gray-950 hover:border-1 hover:border-white">
+      <a href="/register" className="px-6 py-3 bg-gray-900 rounded-full text-white hover:bg-gray-950 hover:border-1 hover:border-white">
         Start Writing Now
       </a>
     </section>
